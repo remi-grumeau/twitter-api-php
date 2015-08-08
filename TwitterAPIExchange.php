@@ -302,7 +302,7 @@ class TwitterAPIExchange
         {
             curl_close($feed);
 
-            throw new \Exception($error);
+            throw new Exception($error);
         }
 
         curl_close($feed);
